@@ -1,0 +1,56 @@
+Vamos encontrar as derivadas das funções fornecidas:
+1) f(x)=x3−1f(x)=x3−1
+
+Para encontrar a derivada de f(x)f(x), usamos a regra do poder:
+
+f′(x)=ddx(x3)−ddx(1)f′(x)=dxd​(x3)−dxd​(1)
+
+A derivada de x3x3 é 3x23x2 e a derivada de uma constante é zero:
+
+f′(x)=3x2−0f′(x)=3x2−0
+f′(x)=3x2f′(x)=3x2
+2) f(x)=log⁡(x2−3k)f(x)=log(x2−3k)
+
+Para encontrar a derivada de f(x)f(x), usamos a regra da cadeia. Se u=x2−3ku=x2−3k, então f(x)=log⁡(u)f(x)=log(u) e:
+
+f′(x)=1u⋅dudxf′(x)=u1​⋅dxdu​
+
+Primeiro, encontramos dudxdxdu​:
+
+u=x2−3ku=x2−3k
+dudx=ddx(x2)−ddx(3k)=2x−0=2xdxdu​=dxd​(x2)−dxd​(3k)=2x−0=2x
+
+Agora substituímos uu e dudxdxdu​ na fórmula:
+
+f′(x)=1x2−3k⋅2xf′(x)=x2−3k1​⋅2x
+f′(x)=2xx2−3kf′(x)=x2−3k2x​
+3) f(x)=exp⁡(axb)f(x)=exp(axb)
+
+Para encontrar a derivada de f(x)f(x), usamos a regra da cadeia novamente. Se u=axbu=axb, então f(x)=exp⁡(u)f(x)=exp(u) e:
+
+f′(x)=exp⁡(u)⋅dudxf′(x)=exp(u)⋅dxdu​
+
+Primeiro, encontramos dudxdxdu​:
+
+u=axbu=axb
+dudx=a⋅ddx(xb)dxdu​=a⋅dxd​(xb)
+
+Usamos a regra do poder para encontrar ddx(xb)dxd​(xb):
+
+ddx(xb)=bxb−1dxd​(xb)=bxb−1
+
+Então:
+
+dudx=a⋅bxb−1=abxb−1dxdu​=a⋅bxb−1=abxb−1
+
+Agora substituímos uu e dudxdxdu​ na fórmula:
+
+f′(x)=exp⁡(axb)⋅abxb−1f′(x)=exp(axb)⋅abxb−1
+f′(x)=abxb−1exp⁡(axb)f′(x)=abxb−1exp(axb)
+
+Resumindo, as derivadas são:
+
+    f′(x)=3x2f′(x)=3x2
+    f′(x)=2xx2−3kf′(x)=x2−3k2x​
+    f′(x)=abxb−1exp⁡(axb)f′(x)=abxb−1exp(axb)
+
