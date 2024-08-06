@@ -2,7 +2,7 @@ from sympy import *
 
 # Definindo as variáveis simbólicas
 x, a, b, k = symbols('x a b k')
-aaaaa
+aaaa
 # Definindo as funções
 f1 = x**3 - 1
 f2 = log(x**2 - 3*k)
