@@ -1,5 +1,5 @@
 import numpy as np
-aaaaaaaa
+aaaaaaa
 p = np.array([1, 0.8, 0.5])
 
 n = np.array([3, 4, 5])
