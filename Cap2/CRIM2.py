@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
-aaaaa
+aaaa
 # Carregar dados
 data_url = "http://lib.stat.cmu.edu/datasets/boston"
 boston = pd.read_csv(data_url, sep="\s+", skiprows=22, header=None)
